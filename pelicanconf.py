@@ -9,7 +9,7 @@ TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = 'en'
 
-THEME = '/home/lyndsy/dev/lyndsysimon-com/themes/mnmlist/'
+THEME = 'themes/mnmlist/'
 
 # Blogroll
 LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
