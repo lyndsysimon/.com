@@ -1,1 +1,6 @@
 <h1 id='logo'><a href='{{ SITEURL }}'><img src='{{ SITEURL }}/theme/images/header.png' alt='{{ SITENAME }}'></a></h1>
+<div id='category-nav'>
+{% for category, articles in categories %}
+    <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>{% if not loop.last %} | {% endif %}
+{% endfor %}
+</div>
