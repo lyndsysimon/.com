@@ -1,5 +1,6 @@
 Title: Get Around the “Main Street Fairness Act” – and Get Your Amazon Affiliate Account Back
 Date: 2011-05-15
+Category: Internet Marketing
 
 I received this rather frightening email from Amazon this week:
 
