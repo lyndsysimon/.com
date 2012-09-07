@@ -4,6 +4,8 @@ Category: Errata
 
 What do these guys sell again?
 
+![New Relic's Ad](/images/newrelic.png)
+
 Catching the user’s eye is the most commonly spoken about part of creating an effective ad campaign. A less-talked-about part, though, is actually telling the potential customer what it is you offer. If you make software, the user should come to your site interested in your software. If you sell tshirts, the user should come in wanting a tshirt.
 
 The following is an email I just sent to New Relic, who apparently offers a web application profiling tool. It looks great, but their marketing left me wanting something that they don’t even sell.  The ad in question is above.

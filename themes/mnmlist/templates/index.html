@@ -21,14 +21,12 @@
             {% endif %}
         {# other items #}
         {% else %} 
-            <li><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title}}">{{ article.title }}</a></li>
+            <li>{% if not HIDE_DATE %}<time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>{% endif %} | <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title}}">{{ article.title }}</a></li>
         {% endif %}
 {% endfor %}
     {% if loop.length > 1 %}
     </ol>
     </section><!-- #article-list -->
 {% endif %}
-{% else %}
-    Pas d'articles pour le moment.
 {% endif %}
 {% endblock content %}
