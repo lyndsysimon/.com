@@ -3,7 +3,4 @@ html:
 	./pelican_r -t theme -s settings.py content
 
 publish: html
-	cd output
-	git add .
-	git commit -m "automated publish"
-	git push origin master
+	cd output && git add . && git commit -m "automated publish" && git push origin master
