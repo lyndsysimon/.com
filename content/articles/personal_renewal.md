@@ -28,14 +28,15 @@ New Site
 ========
 
 My new site was more complex to set up, but is refreshingly simple
-to maintain. It's statically generated using [pelican][Pelican],
-which is a Python module designed for blogging. Both the [source I
-use to build the site][gh_source] and the [resultant markup][gh_html] is hosted on Github.
+to maintain. It's statically generated using [Pelican][pelican],
+which is a Python module designed for blogging. Both the 
+[source I use to build the site][gh_source] and the 
+[resultant markup][gh_html] are hosted on Github.
 
 Best yet, *this site itself* is hosted on Github, using Github Pages.
 No server administration headache or transfer protocol to deal with.
 I use two tools for this site: Sublime Text 2 for writing content 
-(in Mardown or ReST, no less), and Git for versioning and deployment.
+(in Markdown or ReST, no less), and Git for versioning and deployment.
 
 It's very refreshing to be able to go from hacking on a Python
 project to writing a blog post without changing tools. This sort of
