@@ -12,16 +12,20 @@
 body {
   background: #fff;
   color: #333;
-  font: 10pt "Droid Sans Mono", "Courier New", Inconsolata monospace;
+  font: 10pt "Ubuntu", Consolas, Inconsolata, "Courier New", monospace;
   line-height: 1.4em;
   max-width: 30em;
   margin: 30px auto;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu Condensed", "Arial Black", Arial, sans-serif;
+}
+
 /* line 22, ../../compass/src/main.scss */
 h1 {
-  color: #333;
-  font-family: Helvetica, sans-serif;
+  color:#333;
+  font-family: "Ubuntu Condensed", Helvetica, sans-serif;
   font-size: 1.5em;
   font-weight: normal;
   margin-bottom: 0;
@@ -35,7 +39,6 @@ h1#logo {
 /* line 31, ../../compass/src/main.scss */
 h2 {
   color: #666;
-  font-family: Helvetica, sans-serif;
   font-size: 18px;
   padding-top: 10px;
   margin-bottom:0;
@@ -43,7 +46,6 @@ h2 {
 
 /* line 39, ../../compass/src/main.scss */
 h3 {
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1em;
   color: #000000;
 }
@@ -106,14 +108,12 @@ ul li, ol li {
 /* line 89, ../../compass/src/main.scss */
 strong {
   color: #555555;
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
 }
 
 /* line 95, ../../compass/src/main.scss */
 tt, pre {
   background-color: #fafafa;
-  font-family: Inconsolata, Monaco, monospace;
 }
 
 /* line 101, ../../compass/src/main.scss */
@@ -147,9 +147,7 @@ header a#page-title {
 footer {
   background: #fff;
   color: #666;
-  font-family: helvetica, sans-serif;
   font-size: 13px;
-  letter-spacing: 4px;
   margin-left: 20px;
 }
 /* line 131, ../../compass/src/main.scss */
