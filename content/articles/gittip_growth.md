@@ -7,8 +7,8 @@ on small anonymous donations from others who benefit from their work and want
 to show their appreciation and enable them to continue to produce for the
 community.
 
-Gittip bills itself as a "Personal funding platform." I personally believe that
-this site will change the world. The site was created by Chad Whitaker , who I
+Gittip bills itself as a "personal funding platform." I personally believe that
+this site will change the world. The site was created by Chad Whitacre , who I
 met this year at PyOhio. His enthusiasm for the project (and the philosophy surrounding it) is downright infectious.
 
 I've been watching to see how Gittip gains adoption, and decided to put up a
