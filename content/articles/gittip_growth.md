@@ -1,5 +1,5 @@
 Title: Gittip Growth
-Category: Programming
+Category: Development
 
 If you've not heard of it, Gittip is a site designed to help open source
 developers build an income independent of traditional employers, based instead
