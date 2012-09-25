@@ -1,5 +1,6 @@
 Title: Gittip Growth
 Category: Development
+Date: 2012-09-11
 
 If you've not heard of it, Gittip is a site designed to help open source
 developers build an income independent of traditional employers, based instead

@@ -13,4 +13,4 @@ THEME = 'themes/mnmlist/'
 
 DEFAULT_PAGINATION = 10
 GOOGLE_ANALYTICS = 'UA-12282897-1'
-DISQUS_SITENAME = 'lyndysimoncom'
+DISQUS_SITENAME = 'lyndsysimoncom'
