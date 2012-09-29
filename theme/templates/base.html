@@ -33,6 +33,6 @@
 
 {% include 'analytics.html' %}
 {% if PIWIK_URL and PIWIK_SITE_ID %}{% include 'piwik.html' %}{% endif %}
-{% include 'disqus_script.html' %}
+{% if not SUPPRESS_COMMENTS %}{% include 'disqus_script.html' %}{% endif %}
 </body>
 </html>

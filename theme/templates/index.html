@@ -1,8 +1,9 @@
 {% extends "base.html" %}
+{% set SUPPRESS_COMMENTS = True %}
 {% block content_title %}{% endblock %}
-{% block content %}        
+{% block content %}
 {% if articles %}
-    {% for article in articles %}        
+    {% for article in articles %}
 
         {# First item #}
         {% if loop.first %}
@@ -20,7 +21,7 @@
                     <ol>
             {% endif %}
         {# other items #}
-        {% else %} 
+        {% else %}
             <li>{% if not HIDE_DATE %}<time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>{% endif %} | <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title}}">{{ article.title }}</a></li>
         {% endif %}
 {% endfor %}
