@@ -1,5 +1,5 @@
 Title: Gittip Growth
-Category: Development
+Category: Gittip
 Date: 2012-09-11
 
 If you've not heard of it, Gittip is a site designed to help open source
