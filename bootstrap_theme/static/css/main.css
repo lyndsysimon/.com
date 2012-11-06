@@ -1,0 +1,20 @@
+/*
+Dark Blue: #011640
+Medium BLue: #1747A6
+Light Blue: #3dc9d9
+Green: #BED95F
+Brown: #593B34
+*/
+
+header {
+    padding-bottom: 1em;
+}
+
+header h2 {
+    margin-bottom:0;
+    line-height:30px;
+}
+
+header time {
+    font-style:italic;
+}

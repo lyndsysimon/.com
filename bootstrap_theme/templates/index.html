@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% set SUPPRESS_COMMENTS = True %}
+{% block content_title %}{% endblock %}
+{% block content %}
+<div class='container'>
+    <div class='row'>
+        <div class='span9'>
+{% if articles %}
+    {% for article in articles %}
+        {# First item #}
+        {% if loop.first %}
+            <header>
+                <h2><a href="{{ SITEURL }}/{{ article.url }}" id="page-title">{{ article.title }}</a></h2>
+                {% if not HIDE_DATE %}<time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>{% endif %}
+            </header>
+                <article>
+                    {{ article.content }}{% include 'comments.html' %}
+                </article>
+            {% if loop.length > 1 %}
+                </div>
+                <div class='span3'>
+                <section id="article-list">
+                    <h2>Past Posts</h2>
+                    <ol class='unstyled'>
+            {% endif %}
+        {# other items #}
+        {% else %}
+            <li><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title}}">{{ article.title }}</a>{% if not HIDE_DATE %}<br><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>{% endif %}</li>
+        {% endif %}
+    {% endfor %}
+    {% if loop.length > 1 %}
+    </ol>
+    </section><!-- #article-list -->
+</div>
+    {% endif %}
+{% endif %}
+    </div>
+</div>
+{% endblock content %}

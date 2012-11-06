@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+        <meta charset="utf-8" />
+        <script src='{{ SITEURL }}/theme/scripts/jquery.js'></script>
+        <script src='{{ SITEURL }}/theme/scripts/kendo.all.min.js'></script>
+        <script src='{{ SITEURL }}/theme/scripts/bootstrap.min.js'></script>
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
+        <link rel='stylesheet' href='{{ SITEURL }}/theme/css/bootstrap.min.css' type='text/css' />
+        <link href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
+        <link rel="author" href="https://plus.google.com/104460120585566250078"/>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+        {% if FEED_RSS -%}
+        <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        {%- endif %}
+</head>
+
+<body>
+{% include 'github.html' %}
+{% include 'header.html' %}
+{% block content %}
+{% endblock %}
+
+{% include 'analytics.html' %}
+{% if PIWIK_URL and PIWIK_SITE_ID %}{% include 'piwik.html' %}{% endif %}
+{% if not SUPPRESS_COMMENTS %}{% include 'disqus_script.html' %}{% endif %}
+</body>
+</html>
