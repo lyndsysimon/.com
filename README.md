@@ -1,5 +1,6 @@
 ====
 .com
 
-My personal site, hosted on lyndsysimon.com. Static code hosted at
-(Github Pages)[http://github.com/lyndsysimon/lyndsysimon.github.com/].
+My personal site, hosted on lyndsysimon.com. Hosted on
+(Heorku)[http://heroku.com], using
+(Goldenarch)[http://github.com/kennethreitz/goldenarch].
