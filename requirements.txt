@@ -7,6 +7,7 @@ blinker==1.2
 docutils==0.9.1
 feedgenerator==1.2.1
 gevent==0.13.7
+goldenarch==0.0.5
 greenlet==0.4.0
 gunicorn==0.14.6
 pelican==3.0
