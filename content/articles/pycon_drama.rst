@@ -58,7 +58,7 @@ comfortable. To be blunt, I simply don't see it as my problem.
 
 What gave (and still gives) me pause is that *this seems to be effective*.
 Organizations like PyLadies_ and LadyCoders_ have increased the proportion of
-female Python developers are community functions, and at PyCon in particular -
+female Python developers at community functions, and at PyCon in particular -
 and while I wouldn't hold up a specific proportion as a goal, it is readily
 apparent that bringing different perspective and thought patterns into Python
 is a good thing.
