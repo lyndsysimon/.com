@@ -21,7 +21,7 @@ A Wild Drama Llama Appears
 
 If you've somehow missed all this, I'll give a quick overview and spare you the
 gory details. Apparently two guys at the conference shared a couple of jokes
-based on sexual inuendo, in the middle of a conference room, during a speaker's
+based on sexual innuendo, in the middle of a conference room, during a speaker's
 session. A female attendee overheard and was offended, and took their photo,
 and posted it on Twitter and tagged PyCon. PyCon staff handled the report well,
 and then the Internet arrived in the conversation. First the person who made
@@ -42,7 +42,7 @@ All of the discussion of feminism, women in the Python community, and how this
 specific situation has caused me to examine how I feel about the issue in far
 greater depth that I otherwise would have.
 
-First, as you undoubtably know if you know me personally, I'm an extreme
+First, as you doubtless know if you know me personally, I'm an extreme
 libertarian - an `Anarcho-Capitalist`_. I abhor the initiation of violence, and
 view politics through that lens. I'm predisposed towards solutions where mutual
 benefit is the result and minimal coercion is required. With that in mind, the
