@@ -14,9 +14,10 @@ conference or meetup, I come away more energized and excited than I arrived.
 This is the only place I've ever felt that to this degree, in my entire life.
 That's something very special to me.
 
-* A Wild Drama Llama Appears
+A Wild Drama Llama Appears
+--------------------------
 
- ... and then I got home, and read about *Donglegate*. Joy.
+... and then I got home, and read about *Donglegate*. Joy.
 
 If you've somehow missed all this, I'll give a quick overview and spare you the
 gory details. Apparently two guys at the conference shared a couple of jokes
@@ -34,7 +35,8 @@ incidents. Far better than that, the changes have sparked a dialogue on Github
 as to how these sorts of things should be handled - the result of which will be
 a revised set of guidelines with great community input (and hence, ownership).
 
-* Introspection
+Introspection
+-------------
 
 All of the discussion of feminism, women in the Python community, and how this
 specific situation has caused me to examine how I feel about the issue in far
@@ -76,7 +78,7 @@ the meritocratic culture of Open Source. This became clear to me after reading:
     wins" - but that ignores the frequent corollary of "those with the thickest
     hide, and ability to fight win".
 
-    -- Jesse Noller, *`The Code of Conduct`_*, 07 Dec 2012
+    -- Jesse Noller, `The Code of Conduct`_, 07 Dec 2012
 
 The thing that's striking about that is how well this fits my own personality.
 When I attended PyOhio 2012, I realized that this was where I wanted to be in
@@ -101,7 +103,8 @@ will reach out to the people behind organizations and try to influence the
 development of a more accepting but still individualist, meritocratic Python
 community.
 
-* Foot, Meet Mouth
+Foot, Meet Mouth
+----------------
 
 In closing, I'd like to share my own mis-step in the social minefield that are
 gender relations today. While sprinting with `Gittip`_ upstairs at the Hyatt, I
