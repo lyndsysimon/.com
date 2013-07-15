@@ -1,6 +1,6 @@
 Title: Defining Gittip's Scope
 Date: 2012-09-29
-Category: Gittip
+Category: Development
 
 When I first heard of Gittip, I remember being blown away by its implications.
 The concept that an open source developer could sever ties with the corporate
