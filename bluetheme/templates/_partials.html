@@ -2,7 +2,7 @@
 <ol class='article-list'>
 {% for article in articles %}
     <li>
-        <a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }}</a> <time>{{ article.date|dt }}</time> -- {{ SITEURL }}|{{ article.url }}
+        <a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }}</a> <time>{{ article.date|dt }}</time>
     </li>
 {% endfor %}
 </ol>
