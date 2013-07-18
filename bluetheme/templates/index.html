@@ -1,0 +1,23 @@
+{% import '_partials.html' as partials %}
+{% extends "base.html" %}
+{% set SUPPRESS_COMMENTS = True %}
+{% block content_title %}{% endblock %}
+{% block content %}
+{% if articles %}
+    {% set article = articles[0] %}
+        <header>
+            <h2><a href="{{ SITEURL }}/{{ article.url }}" id="page-title">{{ article.title }}</a></h2>
+            {%- if not HIDE_DATE %}<time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>{% endif %}
+        </header>
+        <article>
+            {{ article.content | excerpt }}
+            {%- if article.content|length > article.content|excerpt|length -%}
+            <p><a href='{{ SITEURL }}/{{ article.url }}'>... read more</a></p>
+            {%- endif -%}
+        </article>
+{% if articles|length > 1 %}
+<h2>Older Posts</h2>
+{{ partials.article_list(articles[1:]) }}
+{% endif %}
+{% endif %}
+{% endblock content %}

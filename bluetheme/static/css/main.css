@@ -1,0 +1,130 @@
+/*
+Dark Blue: #00C
+Powder Blue: #DDF
+Bright Blue: #00F
+Dark Yellow: #CA0
+Yellow: #FD0
+*/
+
+/* General */
+
+body {
+    border-top: 10px solid #00C;
+    background-color: #DDF;
+    margin: 0;
+    font-family: Oxygen, sans-serif;;
+    font-size: .9em;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Carrois Gothic SC', sans-serif; }
+
+a {
+    color:#00C;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+pre {
+    background-color: #E5E5EF;
+    padding: 1em;
+}
+
+.outer-container {
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Header */
+
+header#site-header {
+    margin:0 auto;
+    padding:40px 0;
+}
+
+header#site-header h1 {
+    font-size:20px;
+    line-height:20px;
+    display:block;
+    margin:0 20px 0 0;
+    float:left;
+}
+
+header#site-header nav {
+    display:block;
+    float:right;
+}
+
+/* Footer */
+
+footer {
+    background-color:#00C;
+    color:#DDF;
+    text-align:center;
+    padding: 0.7em 0;
+}
+
+footer a {
+    color: #DDF;
+}
+
+footer nav {
+    display:inline-block;
+    font-size:0.8em;
+    margin-bottom: 0.7em;
+}
+
+footer p {
+    margin:0;
+    font-size: 0.8em;
+}
+
+/* Navs */
+
+nav ul {
+    display:inline-block;
+    padding:0;
+    margin:0;
+}
+
+nav ul li {
+    display:inline-block;
+    margin-left:1em;
+}
+
+/* Articles & Pages */
+
+header h2 {
+    margin-bottom: 0;
+}
+
+header time {
+    font-size :0.9em;
+    font-style: italic;
+}
+
+/* Macros */
+
+ol.article-list {
+    padding-left:0;
+    list-style-type: none;
+}
+
+ol.article-list time {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+article header h1 {
+    margin-bottom:0;
+}
+
+article header time {
+    font-style:italic;
+    font-size:0.9em;
+}

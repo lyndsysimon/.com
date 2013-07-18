@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="acf6ada9-2514-4d79-b1ef-870b4e262a92" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluetheme/templates/archives.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluetheme/templates/article.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluetheme/templates/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluetheme/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluetheme/static/css/main.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_theme/static/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_theme/static/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/archives.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/article.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/index.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/LICENSE" afterPath="$PROJECT_DIR$/bluetheme/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/README.rst" afterPath="$PROJECT_DIR$/bluetheme/README.rst" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/screenshot.png" afterPath="$PROJECT_DIR$/bluetheme/screenshot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/static/css/pygment.css" afterPath="$PROJECT_DIR$/bluetheme/static/css/pygment.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/static/images/header.png" afterPath="$PROJECT_DIR$/bluetheme/static/images/header.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/static/images/header2.png" afterPath="$PROJECT_DIR$/bluetheme/static/images/header2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/static/scripts/bootstrap.min.js" afterPath="$PROJECT_DIR$/bluetheme/static/scripts/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/static/scripts/jquery.js" afterPath="$PROJECT_DIR$/bluetheme/static/scripts/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/static/scripts/kendo.all.min.js" afterPath="$PROJECT_DIR$/bluetheme/static/scripts/kendo.all.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/analytics.html" afterPath="$PROJECT_DIR$/bluetheme/templates/analytics.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/author.html" afterPath="$PROJECT_DIR$/bluetheme/templates/author.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/authors.html" afterPath="$PROJECT_DIR$/bluetheme/templates/authors.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/base.html" afterPath="$PROJECT_DIR$/bluetheme/templates/base.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/categories.html" afterPath="$PROJECT_DIR$/bluetheme/templates/categories.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/category.html" afterPath="$PROJECT_DIR$/bluetheme/templates/category.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/comments.html" afterPath="$PROJECT_DIR$/bluetheme/templates/comments.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/disqus_script.html" afterPath="$PROJECT_DIR$/bluetheme/templates/disqus_script.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/github.html" afterPath="$PROJECT_DIR$/bluetheme/templates/github.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/page.html" afterPath="$PROJECT_DIR$/bluetheme/templates/page.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/pagination.html" afterPath="$PROJECT_DIR$/bluetheme/templates/pagination.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/piwik.html" afterPath="$PROJECT_DIR$/bluetheme/templates/piwik.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/tag.html" afterPath="$PROJECT_DIR$/bluetheme/templates/tag.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/taglist.html" afterPath="$PROJECT_DIR$/bluetheme/templates/taglist.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/tags.html" afterPath="$PROJECT_DIR$/bluetheme/templates/tags.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/translations.html" afterPath="$PROJECT_DIR$/bluetheme/templates/translations.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_theme/templates/twitter.html" afterPath="$PROJECT_DIR$/bluetheme/templates/twitter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/articles/python-packaging.rst" afterPath="$PROJECT_DIR$/content/articles/python-packaging.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
+    </list>
+    <ignored path="lyndsysimon.com.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374109546130" ignored="false" />
+    <file path="/python-packaging.rst" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374114742790" ignored="false" />
+    <file path="/project.files.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372780791337" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/Site/Templates/Members/Project/Inner/project.files.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372780791337" ignored="false" />
+    <file path="/gittip_growth.md" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372786774962" ignored="false" />
+    <file path="/gittip_scope.md" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372786787522" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/repyducible/pyre/config.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372794660916" ignored="false" />
+    <file path="/config.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372794660916" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/repyducible/tests/test_pyre.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372790096264" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/repyducible/tests/test_config.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372790702124" ignored="false" />
+    <file path="/test_config.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372790658730" ignored="false" />
+    <file path="/main.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374065636376" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/repyducible/main.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372795778357" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/repyducible/models/__init__.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372795086981" ignored="false" />
+    <file path="/__init__.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372795081484" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/repyducible/models/GenericBackend.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372794447087" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/repyducible/models/filesystem.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372794522862" ignored="false" />
+    <file path="/filesystem.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372794522470" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/repyducible/models/generic.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372794503050" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/repyducible/pyre/__init__.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372794611378" ignored="false" />
+    <file path="/project.dashboard.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372863663193" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/Site/Templates/Members/Project/Inner/project.dashboard.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372881849328" ignored="false" />
+    <file path="/dummy.xml" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374065889737" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/Site/Templates/Members/Project/Inner/_modals.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372863440647" ignored="false" />
+    <file path="/_modals.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372863439832" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/Site/static/site.css" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374066166501" ignored="false" />
+    <file path="/site.css" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374066166501" ignored="false" />
+    <file path="/a.dummy" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372882108267" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/Site/Templates/Members/membersIndex.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372881849328" ignored="false" />
+    <file path="/membersIndex.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372864364379" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/Site/Templates/__init__.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372864665986" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/Site/Templates/Members/Project/project.view.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374006734101" ignored="false" />
+    <file path="/project.view.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372865434662" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/Site/Templates/Public/Pages/getting_started.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372882204017" ignored="false" />
+    <file path="/getting_started.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1372882165317" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/main.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374065637736" ignored="false" />
+    <file path="/settings.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374118466470" ignored="false" />
+    <file path="/Makefile" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374122205809" ignored="false" />
+    <file path="$PROJECT_DIR$/../../notes/meetings/20130715-deployment.rst" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1373922341966" ignored="false" />
+    <file path="/20130715-deployment.rst" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1373922301003" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/Site/Templates/_header.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374066115991" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/dashboard.html" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374001280385" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/files.html" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374001296595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../notes/20130716-dev-meeting.rst" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374003015470" ignored="false" />
+    <file path="/20130716-dev-meeting.rst" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374003008989" ignored="false" />
+    <file path="/_header.mako" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374066115991" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/Site/Settings.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374006734101" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cos/osf/Site/Project/Routes.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374006734101" ignored="false" />
+    <file path="/main.css" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374121722979" ignored="false" />
+    <file path="/header.html" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374122021024" ignored="false" />
+    <file path="/index.html" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374119410370" ignored="false" />
+    <file path="/filters.py" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374118557089" ignored="false" />
+    <file path="/article.html" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374117201567" ignored="false" />
+    <file path="/base.html" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374120278062" ignored="false" />
+    <file path="/archives.html" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374119599952" ignored="false" />
+    <file path="/_partials.html" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374121930600" ignored="false" />
+    <file path="/footer.html" changelist="acf6ada9-2514-4d79-b1ef-870b4e262a92" time="1374121590235" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="lyndsysimon.com" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bluetheme/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="32" selection-start="266" selection-end="266" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_partials.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bluetheme/templates/_partials.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="126" selection-start="228" selection-end="228" vertical-scroll-proportion="-2.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bluetheme/templates/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="14" selection-start="96" selection-end="96" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.23300971">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bluetheme/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="6" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-15.333333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="23" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bluetheme/static/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="0" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archives.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bluetheme/templates/archives.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="15" selection-start="190" selection-end="190" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bluetheme/templates/category.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="62" selection-start="88" selection-end="89" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filters.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="38" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/content/articles/gittip_growth.md" />
+        <option value="$PROJECT_DIR$/content/articles/gittip_scope.md" />
+        <option value="$PROJECT_DIR$/content/articles/python-packaging.rst" />
+        <option value="$PROJECT_DIR$/bootstrap_theme/templates/article.html" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/filters.py" />
+        <option value="$PROJECT_DIR$/bootstrap_theme/templates/index.html" />
+        <option value="$PROJECT_DIR$/bootstrap_theme/templates/archives.html" />
+        <option value="$PROJECT_DIR$/bootstrap_theme/templates/base.html" />
+        <option value="$PROJECT_DIR$/bootstrap_theme/templates/footer.html" />
+        <option value="$PROJECT_DIR$/bootstrap_theme/static/css/main.css" />
+        <option value="$PROJECT_DIR$/bootstrap_theme/templates/_partials.html" />
+        <option value="$PROJECT_DIR$/bootstrap_theme/templates/header.html" />
+        <option value="$PROJECT_DIR$/Makefile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1680" />
+    <option name="height" value="1024" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lyndsysimon.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lyndsysimon.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lyndsysimon.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cos/repyducible" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lyndsysimon.com" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lyndsysimon.com" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lyndsysimon.com" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lyndsysimon.com" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acf6ada9-2514-4d79-b1ef-870b4e262a92" name="Default" comment="" />
+      <created>1372709314712</created>
+      <updated>1372709314712</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37086093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17258263" sideWeight="0.62913907" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bluetheme/templates/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="231" selection-end="231" vertical-scroll-proportion="0.14478764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluetheme/templates/comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.028957529">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="67" selection-start="6212" selection-end="6212" vertical-scroll-proportion="0.31914893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluetheme/templates/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="91" selection-end="91" vertical-scroll-proportion="0.057915058">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluetheme/templates/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="43" selection-start="179" selection-end="179" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluetheme/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="247" selection-end="247" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="38" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluetheme/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="266" selection-end="266" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluetheme/templates/_partials.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="126" selection-start="228" selection-end="228" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluetheme/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="6" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-15.333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluetheme/templates/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="62" selection-start="88" selection-end="89" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluetheme/templates/archives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="190" selection-end="190" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluetheme/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="0" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluetheme/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="96" selection-end="96" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.23300971">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+  </component>
+</project>
+

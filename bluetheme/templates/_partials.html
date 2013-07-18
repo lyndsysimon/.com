@@ -1,0 +1,9 @@
+{%- macro article_list(articles) -%}
+<ol class='article-list'>
+{% for article in articles %}
+    <li>
+        <a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }}</a> <time>{{ article.date|dt }}</time> -- {{ SITEURL }}|{{ article.url }}
+    </li>
+{% endfor %}
+</ol>
+{%- endmacro -%}

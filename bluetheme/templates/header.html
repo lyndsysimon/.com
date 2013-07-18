@@ -1,0 +1,11 @@
+<header id='site-header'>
+    <h1><a id='header' href="/">{{ SITENAME }}</a></h1>
+    {{ SITEURL }}
+    <nav>
+        <ul>
+            {% for category, articles in categories %}
+                <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

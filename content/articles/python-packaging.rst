@@ -1,6 +1,6 @@
 :Title: Reproducible Python Environments
 :Date: 2013-07-02
-:Category: Python
+:Category: Development
 
 I've spent the last couple of days looking at conda_, a Python environment
 manager built by Continuum_. In their own words, conda

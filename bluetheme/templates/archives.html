@@ -1,0 +1,7 @@
+{% import '_partials.html' as macros -%}
+{% extends "base.html" -%}
+{% block content -%}
+<h1>Archives</h1>
+{{ macros.article_list(dates) }}
+{% set SUPPRESS_COMMENTS = True %}
+{%- endblock %}
