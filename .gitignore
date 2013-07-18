@@ -1,3 +1,6 @@
 *.pyc
 output/
 venv/
+
+# OSX
+.DS_Store
