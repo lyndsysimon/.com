@@ -1,0 +1,79 @@
+==================================================================
+https://keybase.io/lyndsysimon
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://lyndsysimon.com
+  * I am lyndsysimon (https://keybase.io/lyndsysimon) on keybase.
+  * I have a public key with fingerprint 2CFD 89F4 87BA 807C F755  8C16 3718 590D 7D1A 7ABF
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.0"
+        },
+        "key": {
+            "fingerprint": "2cfd89f487ba807cf7558c163718590d7d1a7abf",
+            "host": "keybase.io",
+            "key_id": "3718590D7D1A7ABF",
+            "uid": "701c94ec6917518f6142939f382ef900",
+            "username": "lyndsysimon"
+        },
+        "merkle_root": {
+            "ctime": 1411440679,
+            "hash": "6734932a3d4396cf5e46681260968ec8202bcfd78b3b0ed8c0a5c7864d7a39f01991ed4096d39638f85e2bec6d4d7e18fb8ead5acb2dd8aaefb6762b4cc9c5f8",
+            "seqno": 55408
+        },
+        "service": {
+            "hostname": "lyndsysimon.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411440734,
+    "expire_in": 157680000,
+    "prev": "27eded77662f1885603c83a9e9e3e9df4edf6f7f56c73929382e5d56f86da28c",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.20 (Darwin)
+Comment: GPGTools - http://gpgtools.org
+
+owFlkmtoFFcYhnfVaJsaKf5pUMF0aHHBuMyZmXNbFEwUi2hjwRtrIcuZc9mMyc6s
+M5PVJS4GwRZLqUsoJLalNrFNWyPSam/EQoWWlNYLViw0/WEviqUQ8U+F2no7E1Ja
+6fyame/53vO+33fqTbNTjekz+42j6u7FH9Nnf3dTW1p+7uwz3EBUjVyfwXs86cfJ
+m89K0sgZ3bLqskhmvaDFD4TM7oxaZphWoyLDyAt8TZlZnDWNWmuCJ83K84syLIde
+omVYXAlClUOwy4iJucIQEg6QjQGB1BRYAIaZq7RkVxDFD51qTGsWPKH/zvBr8VrQ
+htva1+la73QBm4BTR3JEAYaAKAQci9pU2cSSippmAkYynInUU/VFVI28krauLZdk
+2N0jC2EQTOfmsZdQwAHAcUyEqTbFoi7dh7DtUNtitnBsiriC0kGIAAuZFBHJiWVa
+rk6KiWu7phSEmwxyTJAjMNNmTEApkMLRtND9NlEESsvVroUmpLbtEskEZNy1hCCM
+SeUijCzX4ZxyqIhOEcldfmDkIHRMUks+w4rHZWI7Gdz/82V5UNJt5TCIAx706GJX
+HJdzSey4WtbwSWO3dAszOgXX84Xe3H9XCzT68Ej0FFoNuafshbLgJQTEiJj6Sc6R
+lWTfWAopMEbIUoAQiEybE5tRSaUtqVCOFAoprCDi2KZ6U3pNUECkCBLMIvzfoFj7
+ZEUtGXlFn8W9oTRqB9NL5qTSjam5DbOSu5tqfPTxfy70idQjqQM3n/j2mdmdoxuX
+3Tt763zhgwsDm4dfHMs3bzi9+PNDsGM0f6n+XnroXOX0wr1vnLl9JDO28qlfrnx2
+4/n2yaVf3B8d//PteF7t+PJdh7f1OpuGRqamrma2v/nSoWjdc4tPTjTufn14z8JP
+D4963q3o5vwVszKD+z7cuv7ix5O5kdrl5fnUUPve/G0Mjg31fzPv4OXt484n9177
+rWPR+Furrr6bv75mQduVvzsHJruG2/o7vn7lhYZnr/3wR0vT1pHcwMv1FRcqJ45u
+Rmpj0Rp+ugk0fPdk36s7fs0syCz58qfrl04dX7+o9/z33aVl/bm/rh1rzg0O7jzX
+veGrG9veX/1YcaJeb54Yu3Nnav5H7zwA
+=SLPc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lyndsysimon
+
+==================================================================
+
+
