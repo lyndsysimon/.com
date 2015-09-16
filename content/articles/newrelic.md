@@ -1,6 +1,6 @@
 Title: It’s Not About Just Having A Cool Ad…
 Date: 2012-01-06
-Category: Errata
+Category: Internet Marketing
 
 What do these guys sell again?
 

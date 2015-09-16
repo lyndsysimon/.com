@@ -1,6 +1,6 @@
 Title: Reinventing the "Save" Icon
 Date: 2013-04-05
-Category: Design
+Category: Miscellany
 
 Inspired by [this discussion](http://branch.com/b/redesigning-the-save-symbol-let-s-do-this)
 on Branch, I thought I'd throw in my opinion.

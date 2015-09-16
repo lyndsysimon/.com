@@ -1,6 +1,6 @@
 Title: Personal Renewal
 Date: 2012-09-05
-Category: Errata
+Category: Miscellany
 
 If you've visited my site before, you'll undoubtably notice that
 the look has changed dramatically. This is not merely a new theme,
