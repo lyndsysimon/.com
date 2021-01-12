@@ -5,7 +5,7 @@ gevent==1.1.2
 goldenarch==0.0.5
 greenlet==0.4.10
 gunicorn==19.6.0
-Jinja2==2.8
+Jinja2==2.10.1
 Markdown==2.2.0
 MarkupSafe==0.23
 pelican==3.6.3
