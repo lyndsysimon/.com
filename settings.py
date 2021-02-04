@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-import filters
+import datetime
+import re
 
 AUTHOR = u"Lyndsy Simon"
 SITENAME = u"Lyndsy Simon"
@@ -19,6 +20,6 @@ GAUGES_ID = '523cebde108d7b348d0000c9'
 DISQUS_SITENAME = 'lyndsysimoncom'
 
 JINJA_FILTERS = {
-    'excerpt': filters.excerpt,
-    'dt': filters.dt
+    'excerpt': (lambda x: re.split(r'<h[1-6][^>]*>',x)[0]),
+    'dt': (lambda x: x.strftime('%b %d, %Y'))
 }
