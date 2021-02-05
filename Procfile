@@ -1,1 +1,1 @@
-web: mkdir -p output && make html && cd output && python -m http.server
+web: mkdir -p output && make html && cd output && python -m http.server $PORT
