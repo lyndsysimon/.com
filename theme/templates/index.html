@@ -27,14 +27,14 @@
                     <h2>All Posts</h2>
                     <ol>
             {% endif %}
-        {# other items #}
-        {% else %}
-            <li>{% if not HIDE_DATE %}<time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>{% endif %} | <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title}}">{{ article.title }}</a></li>
-        {% endif %}
-{% endfor %}
-    {% if loop.length > 1 %}
-    </ol>
-    </section><!-- #article-list -->
-{% endif %}
+            {# other items #}
+            {% else %}
+                <li>{% if not HIDE_DATE %}<time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>{% endif %} | <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title}}">{{ article.title }}</a></li>
+            {% endif %}
+            {% if loop.length > 1 %}
+                </ol>
+                </section><!-- #article-list -->
+            {% endif %}
+    {% endfor %}
 {% endif %}
 {% endblock content %}
