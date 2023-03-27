@@ -1,0 +1,23 @@
+image: archlinux
+oauth: pages.sr.ht/PAGES:RW
+
+packages:
+  - hut
+  - pyenv
+  - python-pipenv
+
+environment:
+  site: lyndsysimon.com
+secrets:
+  - ba578fe0-189b-4221-8dc8-ac1325cc8e42
+
+tasks:
+- package: |
+    cd blog
+    source ~/env
+    pipenv install
+    pipenv run mkdocs build
+    cd site
+    tar -cvz . > ~/site.tar.gz
+- upload: |
+    hut pages publish -d $site ~/site.tar.gz
