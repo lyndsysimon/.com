@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: "Blog | Lyndsy Simon"
+
+docs_dir: src
+
+nav:
+  - index.md
+
+theme:
+  name: material
+
+plugins:
+  - search:
+  - blog:
+      blog_dir: .
+      post_date_format: long
+      post_url_format: "{slug}"
