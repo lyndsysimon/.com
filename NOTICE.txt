@@ -1,0 +1,11 @@
+This repository, unless otherwise specified, is the sole work of the author,
+Lyndsy Simon.
+
+I have applied the Apache 2.0 license to it as an alternative to leaving it
+unlicensed. If you'd like to use it in a way that does not comply with the
+terms of the Apache 2.0 license, just reach out to me and I'm sure we can work
+something out. At the end of the day, I mostly just want to be able to use the
+legal system to prevent my work from being used for nefarious purposes;
+generally speaking I'm more than willing to grant non-exclusive rights to
+individuals or organizations who want to use it for anything resembling a
+reasonable purpose.
