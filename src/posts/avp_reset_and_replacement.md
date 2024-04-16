@@ -4,7 +4,7 @@ categories:
     - Apple Vision Pro
 ---
 
-# Resetting my Apple Vision Pro
+# Resetting and Replacing my Apple Vision Pro
 
 
 I recently had an issue with my Apple Vision Pro; the one that I received from
