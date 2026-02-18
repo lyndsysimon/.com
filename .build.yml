@@ -4,19 +4,21 @@ oauth: pages.sr.ht/PAGES:RW
 packages:
   - hut
   - pyenv
-  - python-pipenv
 
 environment:
   site: lyndsysimon.com
-secrets:
-  - ba578fe0-189b-4221-8dc8-ac1325cc8e42
 
 tasks:
+- setup: |
+    # Install uv
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+    export PATH="$HOME/.cargo/bin:$PATH"
 - package: |
     cd blog
+    export PATH="$HOME/.cargo/bin:$PATH"
     source ~/env
-    pipenv install
-    pipenv run mkdocs build
+    uv sync
+    uv run zensical build
     cd site
     tar -cvz . > ~/site.tar.gz
 - upload: |

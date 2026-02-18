@@ -1,0 +1,106 @@
+# Zensical configuration for lyndsysimon.com
+
+[project]
+site_name = "Lyndsy Simon"
+docs_dir = "src"
+
+# Navigation
+nav = [
+    { "Home" = "index.md" },
+    { "Recent Posts" = "recent.md" },
+    { "Tags" = "tags.md" },
+]
+
+# Copyright
+copyright = "<a href=\"https://git.sr.ht/~lyndsysimon/blog\">site source</a>"
+
+# ----------------------------------------------------------------------------
+# Theme configuration
+# ----------------------------------------------------------------------------
+[project.theme]
+
+# Features
+features = [
+    "navigation.footer",
+    "navigation.instant",
+    "navigation.tracking",
+    "navigation.tabs",
+    "navigation.tabs.sticky",
+    "toc.follow",
+]
+
+# Color palette configuration for automatic/light/dark mode switching
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+[project.theme.palette.toggle]
+icon = "material/brightness-auto"
+name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+[project.theme.palette.toggle]
+icon = "material/brightness-7"
+name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+[project.theme.palette.toggle]
+icon = "material/brightness-4"
+name = "Switch to system preference"
+
+# ----------------------------------------------------------------------------
+# Plugins
+# ----------------------------------------------------------------------------
+[project.plugins.tags]
+tags_file = "tags.md"
+
+[project.plugins.search]
+# Use default search configuration
+
+[project.plugins.blog]
+blog_dir = "."
+post_date_format = "long"
+post_url_format = "{slug}"
+
+# ----------------------------------------------------------------------------
+# Markdown extensions
+# ----------------------------------------------------------------------------
+[project.markdown_extensions]
+admonition = {}
+"pymdownx.details" = {}
+"pymdownx.inlinehilite" = {}
+"pymdownx.snippets" = {}
+"pymdownx.superfences" = {}
+
+[project.markdown_extensions."pymdownx.highlight"]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+
+# ----------------------------------------------------------------------------
+# Extra configuration
+# ----------------------------------------------------------------------------
+[project.extra]
+generator = false
+
+[[project.extra.social]]
+icon = "fontawesome/brands/git-alt"
+link = "https://git.sr.ht/~lyndsysimon"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/envelope"
+link = "mailto:lyndsy@lyndsysimon.com"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://linkedin.com/in/LyndsySimon"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/twitter"
+link = "https://twitter.com/lyndsysimon"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/facebook"
+link = "https://facebook.com/LyndsySimon"

@@ -1,0 +1,18 @@
+# Build output
+site/
+
+# Python virtual environment
+.venv/
+
+# uv cache
+.uv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# OS files
+.DS_Store
