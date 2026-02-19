@@ -8,12 +8,11 @@ environment:
   site: lyndsysimon.com
 
 tasks:
-- setup: |
+- package: |
     # Install uv
     curl -LsSf https://astral.sh/uv/install.sh | sh
     export PATH="$HOME/.cargo/bin:$PATH"
-- package: |
-    export PATH="$HOME/.cargo/bin:$PATH"
+    # Build site
     uv sync
     uv run zensical build
     cd site
