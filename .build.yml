@@ -3,7 +3,6 @@ oauth: pages.sr.ht/PAGES:RW
 
 packages:
   - hut
-  - pyenv
 
 environment:
   site: lyndsysimon.com
@@ -14,9 +13,8 @@ tasks:
     curl -LsSf https://astral.sh/uv/install.sh | sh
     export PATH="$HOME/.cargo/bin:$PATH"
 - package: |
-    cd blog
     export PATH="$HOME/.cargo/bin:$PATH"
-    source ~/env
+    cd blog
     uv sync
     uv run zensical build
     cd site
