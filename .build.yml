@@ -12,7 +12,8 @@ tasks:
 - package: |
     # Install uv
     curl -LsSf https://astral.sh/uv/install.sh | sh
-    source "$HOME/.cargo/env"
+    # Add uv to PATH
+    export PATH="$HOME/.local/bin:$PATH"
     # Build site
     uv sync
     uv run zensical build
