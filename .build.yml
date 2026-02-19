@@ -3,6 +3,7 @@ oauth: pages.sr.ht/PAGES:RW
 
 packages:
   - hut
+  - python
 
 environment:
   site: lyndsysimon.com
