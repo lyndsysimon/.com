@@ -8,7 +8,8 @@ categories:
 # The Future of Python is in the Past
 
 This post is in response to Calvin Spealman's [I Am Worried About the Future of
-Python](https://web.archive.org/web/20120926004825/http://www.ironfroggy.com/software/i-am-worried-about-the-future-of-python).
+Python](http://www.ironfroggy.com/software/i-am-worried-about-the-future-of-python)
+([archive permalink](https://web.archive.org/web/20120926004825/http://www.ironfroggy.com/software/i-am-worried-about-the-future-of-python)).
 
 First, I believe that Calvin's concern is a legitimate one. Python
 has grown into one of the premier languages in the Open Source communnity -
