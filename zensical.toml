@@ -5,13 +5,12 @@ site_name = "Lyndsy Simon"
 docs_dir = "src"
 
 # Diagrams are rendered client-side by Pele, loaded only on pages that use one.
-extra_css = ["stylesheets/diagrams.css"]
+extra_css = ["stylesheets/diagrams.css", "stylesheets/posts.css"]
 extra_javascript = ["javascripts/diagrams.js"]
 
 # Navigation — the blog plugin adds the archive and category entries itself.
 nav = [
     { "Home" = "index.md" },
-    { "Tags" = "tags.md" },
 ]
 
 # Copyright
@@ -56,8 +55,6 @@ name = "Switch to system preference"
 # ----------------------------------------------------------------------------
 # Plugins
 # ----------------------------------------------------------------------------
-[project.plugins.tags]
-
 [project.plugins.redirects]
 # /recent/ was a hand-maintained page before the blog plugin existed; keep the
 # old URL working for anything that linked it.
