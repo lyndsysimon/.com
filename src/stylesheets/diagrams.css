@@ -1,0 +1,20 @@
+/* Theme Pele diagrams with the site's own colours instead of a fixed palette. */
+.pele {
+  --pele-bg: transparent;
+  --pele-fg: var(--md-default-fg-color);
+  --pele-muted: var(--md-default-fg-color--light);
+  --pele-line: var(--md-default-fg-color--light);
+  --pele-surface: var(--md-code-bg-color);
+  --pele-surface-alt: var(--md-default-fg-color--lightest);
+  --pele-border: var(--md-default-fg-color--lightest);
+}
+
+.pele-diagram {
+  margin: 1.2em 0;
+  text-align: center;
+}
+
+.pele-diagram svg {
+  max-width: 100%;
+  height: auto;
+}
