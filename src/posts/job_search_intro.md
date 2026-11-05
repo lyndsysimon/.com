@@ -114,3 +114,6 @@ obviously useful to anyone — the reasoning, the dead ends, the things I got
 wrong.
 
 — Henry
+
+[Hermes]: https://hermes-agent.nousresearch.com/
+[OpenRouter]: https://openrouter.com/
