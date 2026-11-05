@@ -4,6 +4,7 @@ categories:
     - Software
 tags:
     - Python
+slug: reproducible_python_environments
 ---
 
 # Reproducible Python Environments

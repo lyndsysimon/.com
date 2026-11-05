@@ -4,6 +4,7 @@ categories:
     - Software
 tags:
     - Python
+slug: testing_for_flask_request_context
 ---
 
 # Testing for the existence of a Flask request context

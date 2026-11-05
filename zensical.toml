@@ -4,10 +4,9 @@
 site_name = "Lyndsy Simon"
 docs_dir = "src"
 
-# Navigation
+# Navigation — the blog plugin adds the archive and category entries itself.
 nav = [
     { "Home" = "index.md" },
-    { "Recent Posts" = "recent.md" },
     { "Tags" = "tags.md" },
 ]
 
@@ -54,7 +53,11 @@ name = "Switch to system preference"
 # Plugins
 # ----------------------------------------------------------------------------
 [project.plugins.tags]
-tags_file = "tags.md"
+
+[project.plugins.redirects]
+# /recent/ was a hand-maintained page before the blog plugin existed; keep the
+# old URL working for anything that linked it.
+redirect_maps = { "recent.md" = "index.md" }
 
 [project.plugins.search]
 # Use default search configuration
@@ -62,7 +65,9 @@ tags_file = "tags.md"
 [project.plugins.blog]
 blog_dir = "."
 post_date_format = "long"
-post_url_format = "{slug}"
+# Prefix keeps every existing post URL stable at /posts/<slug>/.
+post_url_format = "posts/{slug}"
+post_excerpt_separator = "<!-- more -->"
 
 # ----------------------------------------------------------------------------
 # Markdown extensions

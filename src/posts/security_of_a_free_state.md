@@ -2,6 +2,7 @@
 date: 2012-12-26
 categories:
     - Politics
+slug: security_of_a_free_state
 ---
 # The Security of a Free State
 

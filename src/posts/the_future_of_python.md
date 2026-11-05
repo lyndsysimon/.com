@@ -3,6 +3,7 @@ date: 2012-09-24
 categories:
     - Software
     - Politics
+slug: the_future_of_python
 ---
 
 # The Future of Python is in the Past

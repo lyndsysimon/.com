@@ -3,6 +3,7 @@ date: 2024-04-16
 categories:
   - VR
   - Apple Vision Pro
+slug: vr_is_in_a_weird_place
 ---
 
 # VR is in a Weird Place Right Now

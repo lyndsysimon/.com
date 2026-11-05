@@ -3,6 +3,7 @@ date: 2024-03-19
 categories:
   - VR
   - Apple Vision Pro
+slug: avp_reset_and_replacement
 ---
 
 # Resetting and Replacing my Apple Vision Pro

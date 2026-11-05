@@ -4,6 +4,7 @@ categories:
     - Software
 tags:
     - ruby
+slug: ruby_inequality_operators
 ---
 
 # Ruby's Inequality Operators

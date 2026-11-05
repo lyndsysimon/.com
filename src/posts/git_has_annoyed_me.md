@@ -4,6 +4,7 @@ categories:
     - Software
 tags:
     - git
+slug: git_has_annoyed_me
 ---
 # Git Has Annoyed Me
 

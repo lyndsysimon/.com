@@ -4,6 +4,7 @@ categories:
     - Software
 tags:
     - OpenSCAD
+slug: openscad_import_system_proposal
 ---
 
 # OpenSCAD Import System: A Proposal
