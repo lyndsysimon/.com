@@ -5,7 +5,7 @@ site_name = "Lyndsy Simon"
 docs_dir = "src"
 
 # Diagrams are rendered client-side by Pele, loaded only on pages that use one.
-extra_css = ["stylesheets/diagrams.css", "stylesheets/posts.css"]
+extra_css = ["stylesheets/diagrams.css", "stylesheets/posts.css", "stylesheets/logo.css"]
 extra_javascript = ["javascripts/diagrams.js"]
 
 # Navigation — the blog plugin adds the archive and category entries itself.
@@ -20,6 +20,10 @@ copyright = "<a href=\"https://github.com/lyndsysimon/.com\">site source</a>"
 # Theme configuration
 # ----------------------------------------------------------------------------
 [project.theme]
+
+# Site logo — replaces the default theme icon in the header. The artwork is
+# pure currentColor, so stylesheets/logo.css re-colours it per palette.
+logo = "assets/images/logo.svg"
 
 # Features
 features = [

@@ -1,0 +1,38 @@
+/*
+ * Site logo.
+ *
+ * The header and drawer logos are <img>, so they cannot inherit `color` from
+ * the page the way an inline SVG would — a plain SVG renders in its own default
+ * (black) and disappears against the dark header. Masking the elements lets the
+ * artwork take `currentColor` from its surroundings instead, so it follows both
+ * the automatic `prefers-color-scheme` palettes and a manual light/dark toggle.
+ */
+
+.md-header__button.md-logo,
+.md-nav__title .md-logo {
+  background-color: currentColor;
+  -webkit-mask-image: url("../assets/images/logo.svg");
+  mask-image: url("../assets/images/logo.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+/* Header: the theme renders the image 1.2rem tall. */
+.md-header__button.md-logo {
+  -webkit-mask-size: 1.2rem;
+  mask-size: 1.2rem;
+}
+
+/* Drawer title: the theme gives the box 1.6rem and lets the image fill it. */
+.md-nav__title .md-logo {
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+/* The <img> elements stay for layout and the accessible name; the mask paints. */
+.md-header__button.md-logo img,
+.md-nav__title .md-logo img {
+  opacity: 0;
+}
